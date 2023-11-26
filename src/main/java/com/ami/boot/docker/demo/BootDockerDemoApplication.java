@@ -11,7 +11,7 @@ public class BootDockerDemoApplication {
 
 	@GetMapping("message")
 	public String getMessage() {
-		return "Hello welcome to Docker";
+		return "Hello welcome to Docker with new actions";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(BootDockerDemoApplication.class, args);
